@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <title>Ben Rutter</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script defer src="main.js"></script>
+    <script src="handlebars.min.js"></script>
+    <script id="projectTemp" type="text/x-handlebars-template">
+      {{#each projects}}
+          <button type="button" class="collapsibleTitle">{{this.title}}</button>
+          <div class="collapsibleContent">
+          <p>{{this.description}}</p>
+          <a href={{this.link}}>Find out more here.</a>
+        </div>
+      {{/each}}
+    </script>
+
+  </head>
+
+  <body>
+
+    <main>
+
+        <header>
+
+          <div id="headerText">
+            <p id="mainHeading">Hi, I'm Ben! 👋</p>
+            <p id="subHeading">I make things with code and data. Here's a sample from some of my latest open source projects.</p>
+          </div>
+
+          <nav>
+            <a href="index.html">Github</a>  &#183;
+            <a href="index.html">LinkedIn</a>
+          </nav>
+
+        </header>
+
+        <content id="projects"></content>
+
+    </main>
+
+    <div id=footer>
+      This site was made with ❤️ in Hampshire, UK. <a href="index.html">See the code here.</a>
+    </div>
+
+
+  </body>
+
+<html>
