@@ -11,9 +11,9 @@ const context = {
       description: 'An exploration of the point where code and art intersect, House Of Left is an instagram-based project of artworks built using either Python or Processing (a Java framework designed for animations and visuals).'
     },
     {
-      title: 'Sketcher: a Python module for 2D generative image creation',
-      link: 'https://github.com/benrrutter/generative_python_scripts/blob/master/visuals/sketcher.py',
-      description: 'Sketcher is a module for geometric image creation that expands on Python\'s Pillow and OpenSimplex packages. It\'s built on a paradigm of reusable simplex based shader objects to help create generative 2D images.'
+      title: 'Shades: a Python module for 2D generative image creation',
+      link: 'https://github.com/benrrutter/shades',
+      description: 'Shades is a module for geometric image creation that expands on Python\'s Pillow and OpenSimplex packages. It\'s built on a paradigm of reusable Shade objects to help create generative 2D images.'
     },
     {
       title: 'Demotivational Pong: a game that is far too hard.',
