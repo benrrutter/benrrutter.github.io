@@ -5,8 +5,6 @@
 
     <title>Ben Rutter</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,11 +13,10 @@
     <script src="handlebars.min.js"></script>
     <script id="projectTemp" type="text/x-handlebars-template">
       {{#each projects}}
-          <button type="button" class="collapsibleTitle">{{this.title}}</button>
-          <div class="collapsibleContent">
-          <p>{{this.description}}</p>
-          <a href={{this.link}}>Find out more here.</a>
-        </div>
+        <h2>{{this.title}}</h2>
+        <p><i>{{this.subtitle}}</i></p>
+        <p>{{this.description}}</p>
+        <a href={{this.link}}>Find out more here.</a>
       {{/each}}
     </script>
 
@@ -29,28 +26,20 @@
 
     <main>
 
-        <header>
+      <h1>Hi, <mark>I'm Ben</mark> 👋</h1>
+      <p>I make things with code and data. Here's a sample from some of my latest open source projects.</p>
+      <nav>
+        <a href="https://github.com/benrrutter">Github</a>  &#183;
+        <a href="https://linkedin.com/in/benrrutter">LinkedIn</a>
+      </nav>
 
-          <div id="headerText">
-            <p id="mainHeading">Hi, I'm Ben! 👋</p>
-            <p id="subHeading">I make things with code and data. Here's a sample from some of my latest open source projects.</p>
-          </div>
-
-          <nav>
-            <a href="https://github.com/benrrutter">Github</a>  &#183;
-            <a href="https://linkedin.com/in/benrrutter">LinkedIn</a>
-          </nav>
-
-        </header>
-
-        <content id="projects"></content>
+      <content id="projects"></content>
 
     </main>
 
-    <div id=footer>
+    <footer>
       This site was made with ❤️ in Hampshire, UK. <a href="https://github.com/benrrutter/benrrutter.github.io">See the code here.</a>
-    </div>
-
+    </footer>
 
   </body>
 
