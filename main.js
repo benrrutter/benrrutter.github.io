@@ -13,6 +13,12 @@ const context =  {
       description: 'An exploration of the point where code and art intersect, House Of Left is an instagram-based project of artworks built using either Python or Processing (a Java framework designed for animations and visuals). Most of my stuff involves simple geometric patterns and colour rules.'
     },
     {
+      title: 'Data Science Projects',
+      subtitle: 'A collection of predictive models.',
+      link: 'https://github.com/benrutter/data-science-projects',
+      description: 'A collection of data-science related projects, most of which are predictive models, and some are written as part of online courses. They include a connect-4 playing AI, text analysis of a book, titanic survival predictions and some handwriting recognition.'
+    },
+    {
       title: 'Fortune Cookie API',
       subtitle: 'A Mongodb and Express based api',
       link: 'https://github.com/benrutter/fortune-cookie-api',
