@@ -2,9 +2,9 @@ const context =  {
   projects: [
     {
       title: 'Genre and Lyrics',
-      subtitle: 'Can a Naive Bayes model predict song genre based on lyrics alone??',
-      link: 'https://benrutter.medium.com/i-built-a-naive-bayes-model-to-predict-genre-from-song-lyrics-and-it-went-ok-ish-639af0b0a078',
-      description: 'After I heard about the million-song-dataset, I decided to set out to acheive the difficult and slightly pointless task of attempting to build a model that could predict genre based only on the words used in lyrics. I also took a look at some of what seperates different genres. It went ok-ish, and I wrote a blog about it'
+      subtitle: 'Can a Naive Bayes model predict song genre based on lyrics alone?',
+      link: 'https://github.com/benrutter/can-you-tell-genre-from-lyrics',
+      description: 'After I heard about the million-song-dataset, I decided to set out to acheive the difficult and slightly pointless task of attempting to build a model that could predict genre based only on the words used in lyrics. I also took a look at some of what seperates different genres. It went ok-ish, and I wrote about it in the readme.'
     },
     {
       title: 'Hop',
